@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "matrix-transformations"
+version = "0.1.0"
+description = "A small Python library for manually implementing 2D matrix transformations."
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+    {name = "Ayesha Khan"}
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
