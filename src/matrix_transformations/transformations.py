@@ -79,14 +79,14 @@ def rotate_90(grid):
         k += 1
     return rotated_grid
 
+
 def rotate_180(grid):
     rotated_90 = rotate_90(grid)
     rotated_180 = rotate_90(rotated_90)
     return rotated_180
 
+
 def rotate_270(grid):
     rotated_180 = rotate_180(grid)
     rotated_270 = rotate_90(rotated_180)
     return rotated_270
-
-
